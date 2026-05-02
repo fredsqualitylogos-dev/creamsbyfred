@@ -60,6 +60,6 @@ const formMessage = document.getElementById('form-message');
 
 contactForm.addEventListener('submit', (event) => {
   event.preventDefault();
-  formMessage.textContent = 'Thank you. Your enquiry has been received for this demo website.';
+  formMessage.textContent = 'Thank you. Your enquiry has been received.';
   contactForm.reset();
 });
